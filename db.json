@@ -1,0 +1,155 @@
+{
+  "tasks": [
+    {
+      "id": 1335847179841,
+      "title": "hello word",
+      "description": "ewrffff",
+      "assignedTo": [
+        370106324053
+      ],
+      "expireDate": "2023-10-13T21:15:03.581Z",
+      "status": "done",
+      "prefix": "done",
+      "companyId": 370106324053,
+      "createdBy": 370106324053,
+      "color": "rgb(238, 5, 120)",
+      "ids": "item-1335847179841"
+    },
+    {
+      "id": 329386335744,
+      "title": "nslfnlwfn",
+      "description": "cnlcnslcns",
+      "assignedTo": [
+        370106324053
+      ],
+      "expireDate": "2023-10-19T04:28:57.593Z",
+      "status": "inProgress",
+      "prefix": "inProgress",
+      "companyId": 370106324053,
+      "createdBy": 370106324053,
+      "color": "rgb(10, 101, 85)",
+      "ids": "item-329386335744"
+    },
+    {
+      "id": 1448253727772,
+      "title": "nccnsclsc",
+      "description": "ncsklcnklscn",
+      "assignedTo": [
+        370106324053
+      ],
+      "expireDate": "2023-10-25T11:17:53.152Z",
+      "status": "todo",
+      "prefix": "todo",
+      "companyId": 370106324053,
+      "createdBy": 370106324053,
+      "color": "rgb(252, 153, 62)"
+    },
+    {
+      "id": 1626185009378,
+      "title": "Codding",
+      "description": "cnsnclskcn",
+      "assignedTo": [
+        370106324053
+      ],
+      "expireDate": "2023-11-07T11:18:10.965Z",
+      "status": "todo",
+      "prefix": "todo",
+      "companyId": 370106324053,
+      "createdBy": 370106324053,
+      "color": "rgb(187, 221, 151)"
+    },
+    {
+      "id": 1655801065116,
+      "title": "UI/UX",
+      "description": "mwdmdm",
+      "assignedTo": [
+        370106324053
+      ],
+      "expireDate": "2023-10-24T11:18:36.386Z",
+      "status": "inProgress",
+      "prefix": "inProgress",
+      "companyId": 370106324053,
+      "createdBy": 370106324053,
+      "color": "rgb(183, 196, 209)",
+      "ids": "item-1655801065116"
+    }
+  ],
+  "companies": [
+    {
+      "id": 370106324053,
+      "name": "lala",
+      "surname": "lala",
+      "username": "lala",
+      "companyname": "lala",
+      "email": "lala@gmail.com",
+      "password": "12345678",
+      "isCompany": true,
+      "companyId": 370106324053,
+      "role": {
+        "admin": true,
+        "editTask": true,
+        "addTask": true,
+        "deleteTask": true,
+        "changeStatus": true,
+        "changeSettings": true
+      }
+    },
+    {
+      "companyId": 370106324053,
+      "companyname": "Mahmudov",
+      "name": "Konul",
+      "surname": "konul",
+      "username": "konul",
+      "email": "konul@gmail.com",
+      "password": "12345678",
+      "isCompany": false,
+      "role": {
+        "admin": false,
+        "editTask": true,
+        "deleteTask": true,
+        "addTask": true,
+        "changeStatus": true,
+        "changeSettings": false
+      },
+      "id": 370106324054
+    },
+    {
+      "name": "Eldeniz",
+      "surname": "eldeniz",
+      "username": "eldeniz",
+      "email": "eldeniz@gmail.com",
+      "password": "12345678",
+      "isCompany": false,
+      "companyId": 370106324053,
+      "companyName": "Mahmudov",
+      "role": {
+        "admin": false,
+        "editTask": true,
+        "addTask": true,
+        "deleteTask": true,
+        "changeStatus": true,
+        "changeSettings": false
+      },
+      "id": 370106324055
+    },
+    {
+      "name": "fuad",
+      "surname": "fuad",
+      "username": "fuad",
+      "email": "fuad@gmail.com",
+      "password": "12345678",
+      "isCompany": false,
+      "companyId": 370106324053,
+      "companyName": "Mahmudov",
+      "role": {
+        "admin": false,
+        "editTask": true,
+        "addTask": true,
+        "deleteTask": true,
+        "changeStatus": true,
+        "changeSettings": false
+      },
+      "id": 370106324056
+    }
+  ]
+}

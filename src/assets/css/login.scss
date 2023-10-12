@@ -1,0 +1,49 @@
+.appBg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    video{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .loginForm {
+        border-radius: 15px;
+        margin-top: 40px;
+        padding: 10px 30px 20px 30px;
+        background-color:  rgb(99, 95, 199, 0.33) !important;
+        box-shadow: 0 2px 6px 0 rgb(0, 0, 0);
+        backdrop-filter: blur(4px);
+
+        .title {
+            color: #0b0b0b !important;
+            font-size: 2.5rem;
+        }
+        .input {
+            width: 400px;
+        }
+        .sociaLogins {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            font-size: 20px;
+
+            .socialIcon {
+                color:  #9997e4;
+                cursor: pointer;
+                :hover {
+                    color: #5852ce;
+                }
+            }
+        }
+    }
+}
